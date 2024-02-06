@@ -1,0 +1,79 @@
+.signup-container {
+    background-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/dd1.png'); /* Background image */
+
+  }
+  
+  .signup-form {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ddddddfa;
+    text-align: center;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form h2 {
+    color: #333;
+    font-family: Algerian, sans-serif; /* Algerian font for headings */
+    margin-bottom: 20px;
+  }
+  
+  .signup-form input,
+  .signup-form select {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: 'Playfair Display', serif; /* Playfair Display font for paragraphs */
+
+    border-radius: 4px;
+  }
+  
+  .signup-form select {
+    cursor: pointer;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif; /* Playfair Display font for buttons */
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  .password-strength {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .password-strength.weak {
+    color: #ff6347;
+  }
+  
+  .password-strength.medium {
+    color: #ffd700;
+  }
+  
+  .password-strength.strong {
+    color: #00ff00;
+  }
+  
