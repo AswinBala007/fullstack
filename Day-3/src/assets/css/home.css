@@ -1,0 +1,80 @@
+/* HomePage.css */
+
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+  }
+  
+  .homepage_home {
+    background-image: url('../images/dd1.png');
+    background-size: cover;
+    background-color: #000000;
+    padding: 50px 20px;
+  }
+  
+  /* Hero Banner Styling */
+  .hero-banner_home {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .headline_home {
+    font-family: 'Algerian', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .subheadline_home {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button_home {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Key Features Section Styling */
+  .key-features_home {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  
+  .feature-card_home {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .feature-card_home img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Success Stories Section Styling */
+  .success-stories_home {
+    margin-top: 50px;
+  }
+  
+  /* Individual Testimonial Styling */
+  .testimonial_home {
+    margin-bottom: 30px;
+  }
+  
+  .testimonial_home img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-text_home {
+    font-style: italic;
+  }
+  
