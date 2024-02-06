@@ -1,0 +1,57 @@
+/* Add this CSS to your dashboard.css file or create a new CSS file and import it */
+
+/* Style for the user table */
+.home_users {
+    background-image: url('../images/dd1.png'); /* Replace 'path_to_your_background_image.jpg' with the actual path to your background image */
+    background-color: black;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* Styles for the container of admin dashboard components */
+  .homeContainer_users {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+/* users.css */
+
+/* Center the table */
+/* users.css */
+
+/* Center the table */
+.userTable_users {
+     margin: 0 auto; /* This centers the element horizontally */
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  /* Style the table */
+  .userTable_users table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .userTable_users th, .userTable_users td {
+    border: 1px solid #ddd;
+    padding: 8px;
+   }
+  
+  .userTable_users th {
+    background-color: #f2f2f2;
+    color: #336699; /* Change heading color */
+    font-family: 'Algerian', cursive; /* Change heading font */
+  }
+  
+  .userTable_users td {
+    font-family: 'Playfair Display', serif; /* Change content font */
+  }
+  
+  /* Optional: Alternate row colors */
+  .userTable_users tbody tr:nth-child(even) {
+    background-color: #ffffff85;
+  }
+  

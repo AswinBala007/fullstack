@@ -1,0 +1,69 @@
+/* CSS for Admin Dashboard */
+
+/* Styles for the entire admin dashboard */
+.home_ad {
+  background-image: url('../images/dd1.png'); /* Replace 'path_to_your_background_image.jpg' with the actual path to your background image */
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Styles for the container of admin dashboard components */
+.homeContainer_ad {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+/* Styles for the sidebar */
+.sidebar_ad {
+  width: 30%; /* Set width for sidebar */
+  background-color: #333; /* Sidebar background color */
+  color: #ffffff; /* Sidebar text color */
+  padding: 20px;
+  position: fixed;
+  left: 0; /* Position sidebar to the extreme left */
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; /* Allow sidebar content to scroll if needed */
+}
+
+.dashboardContent_ad {
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  overflow-y: auto; /* Allow content to scroll vertically */
+  max-height: calc(100vh - 40px); /* Set maximum height for content area */
+}
+
+.dashboardCards_ad {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.dashboardCard_ad {
+  background-color: #f9f9f979;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard_ad h3 {
+  font-family: 'Algerian', sans-serif; /* Algerian font for headings */
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #eceaea; /* Set heading text color to black */
+}
+
+.dashboardCard_ad p {
+  font-family: 'Playfair Display', serif; /* PlayFair Display font for other text */
+  font-size: 18px;
+  color: #fffefe; /* Set paragraph text color to black */
+}

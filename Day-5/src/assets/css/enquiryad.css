@@ -1,0 +1,95 @@
+/* CSS for Enquiries Page */
+
+/* Styles for the entire enquiries page */
+.enquiries_page_enquiryad {
+    background-image: url('../images/dd1.png'); /* Replace 'path_to_your_background_image.jpg' with the actual path to your background image */
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* Styles for the container of enquiries */
+  .homeContainer_enquiryad {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  /* Styles for the sidebar */
+  .sidebar_enquiryad {
+    width: 20%; /* Modified width for sidebar */
+    background-color: #333; /* Sidebar background color */
+    color: #ffffff; /* Sidebar text color */
+    padding: 20px;
+    position: fixed;
+    left: 0; /* Position sidebar to the extreme left */
+    top: 0;
+    bottom: 0;
+    overflow-y: auto; /* Allow sidebar content to scroll if needed */
+  }
+  
+  .dashboardContent_enquiryad {
+    background-color: rgba(7, 7, 7, 0.9); /* Modified semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Modified width for dashboard content */
+    overflow-y: auto; /* Allow content to scroll vertically */
+    max-height: calc(100vh - 40px); /* Set maximum height for content area */
+  }
+  
+  .enquiries_container_enquiryad {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Styles for individual enquiry card */
+  .enquiry_card_enquiryad {
+    background-color: #fff; /* Card background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for enquiry information */
+  .enquiry_info_enquiryad h3 {
+    font-family: 'Algerian', sans-serif; /* Algerian font for enquiry name */
+    font-size: 20px;
+    color: black;
+
+    margin-bottom: 10px;
+  }
+  
+  .enquiry_info_enquiryad p {
+    font-family: 'Playfair Display', serif; /* PlayFair Display font for enquiry details */
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for enquiry actions (reply and delete buttons) */
+  .enquiry_actions_enquiryad button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for reply button */
+  .enquiry_actions_enquiryad button:nth-child(1) {
+    background-color: #4caf50; /* Green color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Styles for delete button */
+  .enquiry_actions_enquiryad button:nth-child(2) {
+    background-color: #f44336; /* Red color */
+    color: #fff; /* Text color */
+  }
+  

@@ -1,0 +1,99 @@
+.enquiry-page_enquiry {
+    background-image: url('../images/dd1.png');
+     background-color: #000000;
+    padding: 50px 20px;
+  }
+  
+  /* Hero Banner Styling */
+  .hero-banner_enquiry {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .headline_enquiry {
+    font-family: 'Algerian', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .subheadline_enquiry {
+    margin-bottom: 40px;
+  }
+  
+  /* Enquiry Categories Styling */
+  .enquiry-categories_enquiry {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .category_enquiry {
+    width: 300px;
+    text-align: left;
+  }
+  
+  .category-title_enquiry {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Enquiry Form Styling */
+  .enquiry-form_enquiry {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-group_enquiry {
+    margin-bottom: 20px;
+  }
+  
+  .label_enquiry {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .input_enquiry {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .textarea_enquiry {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .submit-btn_enquiry {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional Features Styling */
+  .additional-features_enquiry {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .additional-features_enquiry ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-features_enquiry li {
+    margin-bottom: 10px;
+  }

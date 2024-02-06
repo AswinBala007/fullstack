@@ -1,0 +1,62 @@
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    height: 100%;
+    background-color: black; /* Sidebar background color */
+    color: #fff; /* Text color */
+    padding-top: 20px;
+  }
+  .logo{
+    font-family: Algerian, serif; /* Heading font */
+
+  }
+  .top {
+    padding: 20px;
+    font-family: Algerian, serif; /* Heading font */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .center {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Algerian, serif; /* Heading font */
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  li:hover {
+    background-color: #555; /* Hover background color */
+  }
+  
+  span {
+    font-size: 0.9rem;
+    font-family: 'Playfair Display', serif; /* Body font */
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #666; /* Separator line color */
+    margin: 10px 0;
+  }
+  
