@@ -1,0 +1,68 @@
+.login-container {
+  background-color: #070707;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/dd1.png'); /* Background image */
+
+}
+
+.login-form {
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  text-align: center;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  color: #333;
+  font-family: Algerian, sans-serif; /* Algerian font for headings */
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-family: 'Playfair Display', serif; /* Playfair Display font for paragraphs */
+
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif; /* Playfair Display font for buttons */
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.signup-link {
+  display: block;
+  color: #007bff;
+  margin-top: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif; /* Playfair Display font for buttons */
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
